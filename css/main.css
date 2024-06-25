@@ -1,0 +1,79 @@
+body
+{
+  background-color: darkseagreen;
+
+}
+
+
+.list
+{
+  /* background-color: darkseagreen; */
+  /* height: 400px; */
+  font-family: "Playwrite DE Grund", cursive;
+
+    
+
+}
+.inputlist
+{
+  background-color:white ;
+  border: 2px solid transparent;
+  border-radius:20px ;
+  height: 50px;
+  font-size: 16px;
+  font-family: "Playwrite AU VIC", cursive;
+  text-align: center;
+}
+.list h1{
+  color: antiquewhite;
+}
+ img
+{
+  width: 11%;
+  border: 2px solid transparent;
+  border-radius:50%;
+
+}
+.layer
+{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  color: antiquewhite;
+  
+}
+.massage
+{
+  border: 2px solid transparent;
+  border-radius:20px ;
+
+  background-color: rgb(167, 116, 126);
+}
+.but
+{
+  border: 3px solid transparent;
+  background-color: #D7F3FF;
+  color: gray;
+  transition: all 1s;
+}
+.but:hover
+{
+  border: 3px solid white;
+  background-color: antiquewhite
+}
+
+
+
+
+
+@media screen and (max-width:500px){
+
+   img
+{
+  width: 22%;
+
+
+}
+}
